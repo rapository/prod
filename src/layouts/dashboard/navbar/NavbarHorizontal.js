@@ -4,10 +4,7 @@ import { styled } from '@mui/material/styles';
 import { Container } from '@mui/material';
 // config
 import { HEADER } from '../../../config';
-// components
-import { NavSectionHorizontal } from '../../../components/nav-section';
-//
-import navConfig from './NavConfig';
+
 
 // ----------------------------------------------------------------------
 
@@ -20,7 +17,6 @@ const RootStyle = styled('div')(({ theme }) => ({
   position: 'fixed',
   zIndex: theme.zIndex.appBar,
   padding: theme.spacing(1, 0),
-  boxShadow: theme.customShadows.z8,
   top: HEADER.DASHBOARD_DESKTOP_OFFSET_HEIGHT,
   backgroundColor: theme.palette.background.default,
 }));
@@ -30,9 +26,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 function NavbarHorizontal() {
   return (
     <RootStyle>
-      <Container maxWidth={false}>
-        <NavSectionHorizontal navConfig={navConfig} />
-      </Container>
+      <Container maxWidth={false} />
     </RootStyle>
   );
 }
