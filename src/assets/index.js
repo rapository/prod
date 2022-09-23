@@ -1,53 +1,17 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
-import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
-
-export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
-  logo,
-  quotes,
-  robot,
-  send,
-  shield,
-  star,
-  menu,
-  close,
-  google,
-  apple,
-  arrowUp,
-  discount,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  people01,
-  people02,
-  people03,
-};
+export { default as DocIllustration } from './illustration_doc';
+export { default as SeoIllustration } from './illustration_seo';
+export { default as UploadIllustration } from './illustration_upload';
+export { default as SeverErrorIllustration } from './illustration_500';
+export { default as PageNotFoundIllustration } from './illustration_404';
+export { default as MotivationIllustration } from './illustration_motivation';
+export { default as ComingSoonIllustration } from './illustration_coming_soon';
+export { default as MaintenanceIllustration } from './illustration_maintenance';
+export { default as OrderCompleteIllustration } from './illustration_order_complete';
+export { default as BookingIllustration } from './illustration_booking';
+export { default as CheckInIllustration } from './illustration_checkin';
+export { default as CheckOutIllustration } from './illustration_checkout';
+//
+export { default as SentIcon } from './icon_sent';
+export { default as PlanFreeIcon } from './icon_plan_free';
+export { default as PlanStarterIcon } from './icon_plan_starter';
+export { default as PlanPremiumIcon } from './icon_plan_premium';
